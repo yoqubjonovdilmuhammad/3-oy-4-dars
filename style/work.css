@@ -1,0 +1,70 @@
+@import "./global.css";
+
+body {
+  max-height: 1534px;
+}
+
+.header {
+  margin-bottom: 90px;
+}
+.item__work a {
+  color: var(--primary-color);
+}
+.work {
+  margin-bottom: 58px;
+}
+.work__title {
+  font-weight: 900;
+  font-size: 4.4rem;
+  margin-bottom: 35px;
+}
+
+.first__work {
+  display: flex;
+  gap: 1.8rem;
+  padding-bottom: 47px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 43px;
+}
+.first__work p {
+  width: 418px;
+}
+.icons {
+  text-align: center;
+}
+.res__block {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 24px;
+  }
+
+  .work__title {
+    font-size: 3rem;
+    margin-bottom: 13px;
+  }
+  .work__right p {
+    width: 240px;
+  }
+  .first__work {
+    padding-bottom: 17px;
+    margin-bottom: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .work__title {
+    text-align: left;
+  }
+  .first__work {
+    display: none;
+  }
+  .work__block {
+    margin-left: -16px;
+    display: block;
+  }
+  .work__right p {
+    width: 344px;
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,8 @@
+:root {
+  --main-font-family: "Heebo", sans-serif;
+  --primary-color: #ff6464;
+  --secondary-color: #00a8cc;
+  --dark-color: #21243d;
+  --light-color: #8695a4;
+  --transition: all 0.5s;
+}

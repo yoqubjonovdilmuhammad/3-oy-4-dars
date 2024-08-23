@@ -1,0 +1,42 @@
+@import "./global.css";
+body {
+  max-height: 1261px;
+}
+
+.item__work a {
+  color: var(--primary-color);
+}
+
+.blog__main {
+  margin-bottom: 53px;
+}
+.main__title {
+  font-weight: 700;
+  font-size: 4.4rem;
+  color: var(--dark-color);
+  margin-bottom: 56px;
+}
+
+.work__right {
+  width: 682px;
+  margin-bottom: 32px;
+  padding-bottom: 29px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.work__right-title {
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 1.6rem;
+}
+.work__right h4 {
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  color: var(--dark-color);
+}
+.icons {
+  margin-left: 20px;
+}
+.footer__container {
+  text-align: center;
+}
