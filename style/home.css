@@ -57,6 +57,7 @@
 }
 @media screen and (max-width: 576px) {
   .main__container {
+    text-align: center;
     flex-direction: column-reverse;
   }
   .main__left {
@@ -133,6 +134,9 @@
   color: var(--dark-color);
 }
 @media screen and (max-width: 768px) {
+  .posts {
+    background-color: #edf7fa;
+  }
   .posts__top h3 {
     font-size: 2rem;
   }
@@ -144,6 +148,9 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .posts {
+    background-color: #edf7fa;
+  }
   .posts__bottom {
     flex-wrap: wrap;
   }
